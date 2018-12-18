@@ -1,0 +1,47 @@
+body {
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5em;
+  background-color: gray;
+}
+
+canvas {
+	border: solid 1px #fff;
+    border-left: none;
+    border-right: none;
+	display: block;
+	/*width: 80vw;*/
+	height: 60vh;
+	margin: 0 auto;
+}
+
+.main {
+  margin-top: 20px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.score {
+	text-align: center;
+}
+
+.instructions {
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+}
+
+.player-score {
+	color: rgba(255, 193, 7, 1);
+	font-weight: bold;
+	display: inline-block;
+}
+
+.copyright {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.copyright .author {
+	font-size: 0.6em;
+}
